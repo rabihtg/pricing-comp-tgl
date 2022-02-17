@@ -10,6 +10,8 @@ slider.addEventListener("keypress", (e) => {
     } else {
       sliderBox.checked = true;
     }
+    toggleData();
+    localStorage.toggledPlan = sliderBox.checked;
   }
 });
 
